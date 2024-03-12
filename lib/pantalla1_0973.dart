@@ -1,5 +1,6 @@
 // Pantalla1_0973
 //
+
 import 'package:flutter/material.dart';
 
 class Pantalla1_0973 extends StatelessWidget {
@@ -13,13 +14,16 @@ class Pantalla1_0973 extends StatelessWidget {
         backgroundColor: Colors.brown,
       ),
       body: Center(
-        child: Column(
-          children: [
-            ElevatedButton(
-              onPressed: () {}, // Fin de onpressed
-              child: const Text('Pantalla1'),
-            )
-          ], // Fin de niños
+        child: Card(
+          color: Colors.brown,
+          child: Padding(
+            padding: EdgeInsets.all(20),
+            child: Text('Tarjeta Montiel',
+                style: TextStyle(
+                  fontSize: 30,
+                  color: Color(0xe6ffffff),
+                )),
+          ),
         ),
       ),
     );
