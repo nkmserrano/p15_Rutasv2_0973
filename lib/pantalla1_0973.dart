@@ -9,23 +9,21 @@ class Pantalla1_0973 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xffE8F6F3),
       appBar: AppBar(
         title: const Text('Pantalla1 Montiel0973'),
-        backgroundColor: Colors.brown,
+        backgroundColor: Color(0xff17A589),
       ),
       body: Center(
-        child: Card(
-          color: Colors.brown,
-          child: Padding(
-            padding: EdgeInsets.all(20),
-            child: Text('Tarjeta Montiel',
-                style: TextStyle(
-                  fontSize: 30,
-                  color: Color(0xe6ffffff),
-                )),
-          ),
-        ),
-      ),
+          child: Container(
+        color: Color(0xff45B39D),
+        width: 300,
+        height: 300,
+        padding: const EdgeInsets.all(32),
+        margin: const EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+        alignment: Alignment.center,
+        child: const Text('Pantalla 1 0973', style: TextStyle(fontSize: 30)),
+      )),
     );
   } //Fin widget
 } //Fin pantalla1
