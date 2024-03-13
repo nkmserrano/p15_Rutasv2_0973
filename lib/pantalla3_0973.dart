@@ -19,9 +19,9 @@ class Pantalla3_0973 extends StatelessWidget {
       body: Center(
         child: Container(
           color: Color(0xffd7ccc8),
-          width: 300,
-          height: 300,
-          transform: Matrix4.rotationZ((pi / 180) * 20),
+          width: 225,
+          height: 225,
+          transform: Matrix4.rotationZ((pi / 190) * -30),
           child: Center(
             child: Text('Pantalla 3 0973', style: TextStyle(fontSize: 30)),
           ),
